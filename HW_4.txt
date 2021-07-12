@@ -1,0 +1,260 @@
+INSERT INTO genre(name_genre)
+	VALUES('Pop');
+	
+INSERT INTO genre(name_genre)
+	VALUES('Rap');
+	
+INSERT INTO genre(name_genre)
+	VALUES('Rock');
+	
+INSERT INTO genre(name_genre)
+	VALUES('Jazz');
+	
+INSERT INTO genre(name_genre)
+	VALUES('Chanson');
+	
+INSERT INTO singer(name)
+	VALUES('Shakira');
+	
+INSERT INTO singer(name)
+	VALUES('Баста');
+	
+INSERT INTO singer(name)
+	VALUES('Eminem');
+	
+INSERT INTO singer(name)
+	VALUES('Animal ДжаZ');
+	
+INSERT INTO singer(name)
+	VALUES('Стас Михайлов');
+	
+INSERT INTO singer(name)
+	VALUES('Nю');
+
+INSERT INTO singer(name)
+	VALUES('Rob Luft');
+	
+INSERT INTO singer(name)
+	VALUES('Rammstein');
+
+
+INSERT INTO album(yearofrelease, namealbum)
+	VALUES(2019, 'Shakira');
+	
+INSERT INTO album(yearofrelease, namealbum)
+	VALUES(2018, 'Баста-1');
+	
+INSERT INTO album(yearofrelease, namealbum)
+	VALUES(2020, 'Eminem forever');
+	
+INSERT INTO album(yearofrelease, namealbum)
+	VALUES(2018, 'Все для тебя');
+	
+INSERT INTO album(yearofrelease, namealbum)
+	VALUES(2019, 'Deutschland');
+	
+INSERT INTO album(yearofrelease, namealbum)
+	VALUES(2018, 'Счастье');
+
+INSERT INTO album(yearofrelease, namealbum)
+	VALUES(2018, 'Безумныей');
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Безумный', 3.40, 7);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Падаю', 2.47, 7);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Lose Yourself', 4.00, 3);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Venom', 2.10, 3);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('The Monster', 1.55, 3);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Я буду тебя беречь', 4.55, 4);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Лучшая на свете', 2.37, 4);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Три полоски', 4.21, 6);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Не твоя смерть', 2.55, 6);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Berlin', 3.59, 8);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Tanpura', 1.44, 8);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Rosenrot', 3.54, 5);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Du Hast', 3.52, 5);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Выпускной', 5.34, 2);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Моя вселенная', 3.31, 2);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Dare', 3.07, 1);
+	
+INSERT INTO track(nameoftrack, duration, id_album)
+	VALUES('Loca', 2.52, 1);
+
+INSERT INTO collection(name_collection, yearofrelease)
+	VALUES('Для отдыха от суеты', 2018);
+
+INSERT INTO collection(name_collection, yearofrelease)
+	VALUES('Рок - навсегда', 2019);
+	
+INSERT INTO collection(name_collection, yearofrelease)
+	VALUES('Лучшие рэп-песни', 2020);
+	
+INSERT INTO collection(name_collection, yearofrelease)
+	VALUES('Танцевальный хит', 2019);
+
+INSERT INTO collection(name_collection, yearofrelease)
+	VALUES('Любимые песни', 2020);
+	
+INSERT INTO collection(name_collection, yearofrelease)
+	VALUES('Хит-солянка', 2018);
+	
+INSERT INTO collection(name_collection, yearofrelease)
+	VALUES('Новое - хорошо забытое старое', 2018);
+	
+INSERT INTO collection(name_collection, yearofrelease)
+	VALUES('Про любовь', 2017);
+
+INSERT INTO albumsinger(id_singer, id_album)
+	VALUES(1, 1);
+	
+INSERT INTO albumsinger(id_singer, id_album)
+	VALUES(2, 2);
+	
+INSERT INTO albumsinger(id_singer, id_album)
+	VALUES(3, 3);
+	
+INSERT INTO albumsinger(id_singer, id_album)
+	VALUES(5, 5);
+	
+INSERT INTO albumsinger(id_singer, id_album)
+	VALUES(8, 8);
+	
+INSERT INTO albumsinger(id_singer, id_album)
+	VALUES(4, 6);
+	
+INSERT INTO albumsinger(id_singer, id_album)
+	VALUES(9, 5);
+	
+INSERT INTO albumsinger(id_singer, id_album)
+	VALUES(6, 7);
+
+INSERT INTO gendersinger(id_singer, id_genre)
+	VALUES(1,1);
+	
+INSERT INTO gendersinger(id_singer, id_genre)
+	VALUES(2,3);
+	
+INSERT INTO gendersinger(id_singer, id_genre)
+	VALUES(3,3);
+	
+INSERT INTO gendersinger(id_singer, id_genre)
+	VALUES(8,5);
+	
+INSERT INTO gendersinger(id_singer, id_genre)
+	VALUES(4,4);
+
+INSERT INTO gendersinger(id_singer, id_genre)
+	VALUES(9,4);
+	
+INSERT INTO gendersinger(id_singer, id_genre)
+	VALUES(5,6);
+	
+INSERT INTO gendersinger(id_singer, id_genre)
+	VALUES(6,1);
+
+
+
+
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(1, 7);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(1, 11);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(1, 10);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(2, 8);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(2, 13);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(2, 12);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(2, 9);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(3, 14);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(3, 15);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(3, 3);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(4, 1);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(4, 16);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(4, 17);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(5, 15);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(5, 17);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(5, 8);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(6, 6);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(6, 7);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(6, 11);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(7, 7);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(7, 15);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(7, 9);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(8, 6);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(8, 7);
+	
+INSERT INTO collectiontrack(id_collection, id_track)
+	VALUES(8, 8);
