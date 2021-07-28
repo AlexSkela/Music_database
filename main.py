@@ -3,7 +3,7 @@ from pprint import pprint
 import sqlalchemy
 
 
-dns = 'postgresql://postgres:Itmydragon1586@localhost:5432/musiclist'
+dns = 'postgresql://postgres:@localhost:5432/musiclist'
 engine = sqlalchemy.create_engine(dns)
 
 connection = engine.connect()
